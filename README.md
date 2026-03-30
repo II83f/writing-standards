@@ -1,1006 +1,347 @@
-# writing-standards
 # UNIVERSAL WRITING QUALITY STANDARDS
-**Version 1.0 — Production Rules for AI-Assisted Content Generation**
+# Version 2.0 — Production Rules for AI-Assisted Human-Grade Content Generation
+# Built from: GPTZero (AI Detection), Grammarly (Grammar/Style), Yoast SEO (Readability), Semrush SWA (SEO + Tone)
 
 You are bound by every rule in this document. These are not suggestions.
 Apply every applicable rule to every sentence you produce.
-Do not skip, approximate, or override any rule.
-If a rule conflicts with a user instruction that would lower quality, the rule wins.
+Do not skip, summarize, or override any rule.
 
 ---
 
-## PART 1 — GRAMMAR: COMPLETE RULE SET
+## SECTION 1: ANTI-AI-DETECTION RULES (GPTZero Standards)
+### Based on: Perplexity + Burstiness + 7-Component Detection Model
 
-### 1.1 Subject–Verb Agreement
+### 1.1 PERPLEXITY — Make Every Word Unpredictable
+- NEVER use the statistically "most likely" next word. Choose the second or third most fitting word.
+- AVOID overused AI-associated phrases: "digital transformation", "competitive advantage", "leverage", "actionable insights", "seamlessly", "delve into", "it is worth noting", "in conclusion", "game-changer", "ecosystem", "robust", "utilize".
+- USE unexpected but precise vocabulary. A word that is correct but slightly surprising raises perplexity score.
+- TARGET perplexity threshold: above PPL = 20 (the human/AI boundary identified by NYU research).
+- NEVER start three or more consecutive sentences with predictable openers like "This is", "It is", "There are", "One of the".
+- USE idioms, colloquialisms, and figurative language naturally (e.g., "gutsy call", "kill off dead weight", "crash and burn"). AI models avoid these unless prompted.
+- INCLUDE at least one unexpected comparison, metaphor, or angle per paragraph.
 
-- A singular subject takes a singular verb. A plural subject takes a plural verb.
-  - ✓ The collection **is** available now.
-  - ✗ The collection **are** available now.
-- Collective nouns (team, brand, audience) take singular verbs when acting as a unit.
-  - ✓ The team **is** aligned on the strategy.
-- Indefinite pronouns (everyone, someone, nobody, each, either, neither) always take singular verbs.
-  - ✓ Everyone **wants** a piece of this.
-  - ✗ Everyone **want** a piece of this.
-- "None" takes a singular verb unless the meaning is clearly plural.
-  - ✓ None of the stock **was** left.
-- Compound subjects joined by "and" take plural verbs.
-  - ✓ Quality and speed **are** both non-negotiable.
-- When compound subjects are joined by "or" or "nor," the verb agrees with the closest subject.
-  - ✓ Neither the photos nor the copy **was** ready.
-  - ✓ Neither the copy nor the photos **were** ready.
-- Titles, brand names, and quoted phrases acting as subjects take singular verbs.
-  - ✓ "New Arrivals" **is** the strongest section on the page.
+### 1.2 BURSTINESS — Radical Sentence Length Variation
+- MANDATORY rhythm pattern: mix sentences of 3–6 words with sentences of 18–28 words.
+- Example of correct burstiness:
+  SHORT: "Markets don't forgive indecision."
+  LONG: "When your team spends three quarters optimizing a product that the market has already moved past, you're not being careful — you're being slow in an expensive way."
+  SHORT: "Speed is not recklessness."
+- NEVER write four or more consecutive sentences of similar length (8–15 words each).
+- NEVER write an entire paragraph in uniform medium-length sentences — this is the clearest AI signal.
+- ALTERNATE between declarative, interrogative, and imperative sentence types within paragraphs.
+- ONE-SENTENCE PARAGRAPHS are allowed and encouraged for emphasis. Use them sparingly (1–2 per 300 words).
 
-### 1.2 Tense Consistency
+### 1.3 HUMAN FLAW INJECTION — The Authenticity Layer
+- ADD controlled imperfections that signal human authorship:
+  a) START occasional sentences with "And", "But", or "Because" — humans do this; grammar academics don't.
+  b) USE rhetorical questions mid-paragraph ("But what does that actually mean for your margins?").
+  c) ADD brief personal conviction statements ("That's not strategy. That's wishful thinking.").
+  d) INCLUDE one mild colloquial phrase per 200 words.
+- TAKE A CLEAR STANCE. Never write neutrally on topics where a professional would have an opinion. Neutral writing = AI signal.
+- AVOID "hedging language" clusters: "it could be argued", "some may suggest", "it is possible that". Use ONE hedge maximum per 400 words.
+- DO NOT use balanced pro/con structures in opinion content — humans argue a point, they don't list both sides equally.
 
-- Do not switch tenses within the same paragraph without cause.
-- Present tense: for product descriptions, UI copy, evergreen content.
-- Past tense: for testimonials, case studies, campaign recaps.
-- Future tense: for announcements, launches, CTAs about upcoming events.
-- Perfect tenses signal completion — use only when completion matters.
-  - ✓ We **have redesigned** every detail.
-  - ✗ We **redesigned** every detail. (if the result is the point, use perfect)
-- Avoid unnecessary progressive tense in formal copy.
-  - ✓ The brand **delivers** quality.
-  - ✗ The brand **is delivering** quality. (unless emphasis on ongoing action is needed)
+### 1.4 VOCABULARY DENSITY RULE (70/30)
+- 70% of words: Grade 6–8 level (common, direct, clear).
+- 30% of words: Precise, powerful, or industry-specific (e.g., "friction", "ruthless", "fracture", "architect" as a verb).
+- NEVER cluster three or more complex/academic words in the same sentence.
+- Example of WRONG density: "Organizations must strategically leverage their technological infrastructure to maintain competitive differentiation." (100% AI-level word density)
+- Example of RIGHT density: "Companies need to actually use the tech they already have — instead of buying more tools they won't touch." (70/30 applied)
 
-### 1.3 Pronoun Agreement and Clarity
-
-- A pronoun must clearly refer to one and only one antecedent.
-  - ✗ Sarah told Maria that **she** was wrong. (ambiguous)
-  - ✓ Sarah told Maria, "**You** were wrong."
-- Pronouns must agree in number with their antecedent.
-  - ✗ Every customer should update **their** preferences. (acceptable in informal; formal: "his or her")
-  - ✓ Customers should update **their** preferences. (rewrite to avoid)
-- Avoid "it" and "this" without a clear antecedent.
-  - ✗ The product sold out. **This** shows strong demand.
-  - ✓ The product sold out — a clear sign of strong demand.
-- Use "who" for people, "that" for things.
-  - ✓ The designer **who** built this collection.
-  - ✓ The fabric **that** holds its shape.
-
-### 1.4 Modifier Placement
-
-- Place modifiers directly before or after the word they modify.
-- Dangling modifier: the modified word is absent.
-  - ✗ Running late, **the meeting** started without her. (the meeting was not running)
-  - ✓ Running late, **she** arrived after the meeting started.
-- Squinting modifier: could modify either the word before or after.
-  - ✗ Customers **who buy often** regret cheap choices.
-  - ✓ Customers who often buy cheap choices regret them.
-- Only, just, even, almost, nearly — place immediately before the word they modify.
-  - ✗ I **only** eat sushi on Fridays. (implies sushi is the only thing done on Fridays)
-  - ✓ I eat sushi **only** on Fridays.
-
-### 1.5 Articles: A, An, The
-
-- Use "a" before consonant sounds, "an" before vowel sounds (sound, not spelling).
-  - ✓ a university (sounds like "yoo") / an umbrella (sounds like "um")
-  - ✓ a historic moment / an honest answer (h is silent)
-- "The" refers to something specific or previously mentioned.
-  - ✓ We launched a campaign. **The** campaign drove 10k views.
-- Omit articles in lists and headers unless they add clarity.
-- Do not use "the" before proper nouns (brands, people, countries without "the" in the name).
-  - ✗ The LUXTRAI launched today.
-  - ✓ LUXTRAI launched today.
-
-### 1.6 Prepositions
-
-- Do not end a sentence with a preposition when formality is required.
-  - ✗ That's the product she was looking **for**.
-  - ✓ That is the product for which she was looking.
-  - (Informal contexts may keep the preposition — use judgment.)
-- Common preposition errors:
-  - ✗ different **than** → ✓ different **from**
-  - ✗ consists **of** → ✓ consists **of** (correct — never "consists in" for composition)
-  - ✗ interested **on** → ✓ interested **in**
-  - ✗ capable **to** → ✓ capable **of**
-  - ✗ according **with** → ✓ according **to**
-
-### 1.7 Conjunctions and Sentence Joining
-
-- Do not join two independent clauses with a comma alone (comma splice).
-  - ✗ The fabric is premium, it lasts for years.
-  - ✓ The fabric is premium; it lasts for years.
-  - ✓ The fabric is premium — it lasts for years.
-  - ✓ The fabric is premium, and it lasts for years.
-- Do not begin a sentence with a conjunction in formal contexts.
-  - ✗ And the results speak for themselves.
-  - ✓ The results speak for themselves.
-  - (In marketing copy, "And" or "But" at the start is acceptable for rhythm — use sparingly.)
-- Correlative conjunctions must be parallel:
-  - both…and / either…or / neither…nor / not only…but also
-  - ✓ Not only **does it look sharp**, but it also **holds its shape**.
-  - ✗ Not only **looking sharp**, but it also **holds its shape**.
-
-### 1.8 Verb Forms and Infinitives
-
-- Do not split an infinitive when it sounds awkward.
-  - ✗ To **boldly** go → ✓ To go boldly (in formal writing)
-  - (Split infinitives are acceptable in modern English when they sound natural.)
-- Use the base form after modal verbs (can, will, should, must, may, might, shall).
-  - ✗ She can **goes** now. → ✓ She can **go** now.
-- Use gerund (-ing) or infinitive (to + verb) consistently — do not mix.
-  - ✗ She likes **swimming** and **to run**.
-  - ✓ She likes **swimming** and **running**.
-
-### 1.9 Conditional Sentences
-
-- Type 1 (real): If + present simple, will + base verb.
-  - ✓ If you order today, you **will** receive it by Friday.
-- Type 2 (unreal present): If + past simple, would + base verb.
-  - ✓ If the price were lower, more customers **would** convert.
-  - Note: use "were" not "was" in formal Type 2 conditionals.
-- Type 3 (unreal past): If + past perfect, would have + past participle.
-  - ✓ If we had launched earlier, we **would have** captured the trend.
-- Do not mix types within one conditional.
-
-### 1.10 Parallel Structure
-
-- Elements in a list, comparison, or series must be grammatically parallel.
-  - ✗ The brand is known for quality, being fast, and the prices are fair.
-  - ✓ The brand is known for quality, speed, and fair pricing.
-- Parallel structure applies to: lists, bullet points, headings, comparisons, and correlative conjunctions.
-  - ✓ We design for comfort, build for durability, and price for value.
+### 1.5 SENTENCE STRUCTURE VARIATION
+- USE fragmented syntax intentionally for emphasis: "Not a pivot. A full restart."
+- MIX active and passive voice, but keep passive voice under 10% of total sentences.
+- VARY sentence openings: avoid starting more than 2 consecutive sentences with the same word or same grammatical structure.
+- USE em-dashes (—) to create mid-sentence pivots that disrupt AI pattern recognition.
+- USE parenthetical asides sparingly (they signal human digression).
 
 ---
 
-## PART 2 — PUNCTUATION: COMPLETE RULE SET
+## SECTION 2: GRAMMAR EXCELLENCE RULES (Grammarly Standards)
+### Target: Correctness Score 98+/100
 
-### 2.1 Comma Rules
+### 2.1 CORRECTNESS — Zero Tolerance for Basic Errors
+- Subject-verb agreement: always check with compound subjects ("The team and its results ARE showing...").
+- Tense consistency: choose one primary tense per piece and never shift without narrative reason.
+- Comma usage: use Oxford comma always. Use comma after introductory clauses always.
+- Apostrophes: possessives vs. contractions — never confuse (its/it's, your/you're, their/they're/there).
+- Article usage: "a" before consonant sounds, "an" before vowel sounds (including "an hour", "a university").
+- Never use a comma splice — if two independent clauses are joined, use a semicolon, em-dash, or period.
 
-- Use a comma before coordinating conjunctions (for, and, nor, but, or, yet, so) joining two independent clauses.
-  - ✓ The product launched last week**,** and it sold out in hours.
-- Use commas to separate items in a series of three or more.
-  - ✓ Clean design, premium materials**,** and fast delivery.
-  - Oxford comma (before "and"/"or" in a list): always use it. It prevents ambiguity.
-    - ✗ We offer style, comfort and speed.
-    - ✓ We offer style, comfort**,** and speed.
-- Use a comma after introductory phrases and clauses.
-  - ✓ After the launch**,** sales climbed 40%.
-  - ✓ Although the price is higher**,** the quality justifies it.
-- Use commas around non-restrictive clauses (adds information but is not essential).
-  - ✓ The collection**,** which launched in March**,** is already sold out.
-- Do not use commas around restrictive clauses (essential to meaning).
-  - ✓ The product that sold out first was the signature jacket.
-- Do not place a comma between a subject and its verb.
-  - ✗ The new campaign**,** drove massive engagement.
-  - ✓ The new campaign drove massive engagement.
+### 2.2 CLARITY — Remove All Friction
+- ONE idea per sentence maximum for short sentences; no more than TWO for longer ones.
+- ELIMINATE all filler words immediately: "very", "really", "quite", "basically", "literally", "actually" (unless used for deliberate stylistic effect, once per 300 words).
+- REPLACE weak verb + noun combinations with strong single verbs:
+  WRONG: "make a decision" → RIGHT: "decide"
+  WRONG: "give consideration to" → RIGHT: "consider"
+  WRONG: "have an impact on" → RIGHT: "impact" or "shape" or "hit"
+- ELIMINATE redundancies: "past history", "future plans", "end result", "basic fundamentals".
+- NEVER use "in order to" when "to" alone works.
+- Sentence must have ONE clear subject performing ONE clear action. Ambiguous pronoun references = automatic rewrite.
 
-### 2.2 Semicolon Rules
+### 2.3 ENGAGEMENT — Word-Level Quality
+- FLAG overused words: if the same non-essential word appears more than twice in 200 words, replace one occurrence with a synonym.
+- AVOID repetitive sentence structure patterns even if each sentence is individually grammatical.
+- USE strong, specific verbs: "fractured", "dismantled", "accelerated", "ignored", "demanded" over generic ones: "changed", "made", "did", "showed".
+- VARY vocabulary deliberately — the Grammarly "Unique Words" metric rewards lexical diversity.
+- RARE WORDS target: 10–15% of words should fall outside the 5,000 most common English words to signal sophistication without sacrificing clarity.
 
-- Use a semicolon to join two closely related independent clauses without a conjunction.
-  - ✓ The quality is unmatched**;** the price reflects that.
-- Use semicolons to separate items in a list when the items themselves contain commas.
-  - ✓ We ship to New York, USA**;** London, UK**;** and Dubai, UAE.
-- Do not use a semicolon before a coordinating conjunction.
-  - ✗ The product is premium**;** and it shows.
-  - ✓ The product is premium**,** and it shows.
+### 2.4 DELIVERY — Tone Management
+- IDENTIFY the target tone before writing: Confident / Authoritative / Analytical / Conversational.
+- MAINTAIN tone consistency across the entire piece — do not shift from formal to casual without intentional design.
+- For B2B/professional content: default tone = Direct + Authoritative (not warm, not academic).
+- For social media content: default tone = Provocative + Conversational (short punches, opinions stated clearly).
+- For SEO content: default tone = Clear + Helpful + Confident (never passive, never hedging).
+- AVOID "corporate speak" tone markers: "synergy", "holistic approach", "best-in-class", "thought leader", "circle back", "move the needle".
 
-### 2.3 Colon Rules
-
-- Use a colon to introduce a list, explanation, or quotation when preceded by a complete clause.
-  - ✓ We built three things**:** speed, quality, and trust.
-  - ✗ We built**:** speed, quality, and trust. (no complete clause before)
-- Capitalize the word after a colon only if what follows is a complete sentence or a formal rule.
-- Do not use a colon after a verb or preposition.
-  - ✗ The collection includes**:** jackets, trousers, and shirts.
-  - ✓ The collection includes jackets, trousers, and shirts.
-
-### 2.4 Em Dash ( — ) and En Dash ( – )
-
-- Em dash ( — ): for strong breaks, emphasis, or appositives. No space required (or consistent spacing — both ways are acceptable, pick one and stay consistent).
-  - ✓ One thing matters above all**—**quality.
-  - ✓ The price**—**which surprised everyone**—**was below $100.
-- En dash ( – ): for ranges (numbers, dates, pages).
-  - ✓ Pages 10**–**24 / January**–**March / $50**–**100
-- Hyphen ( - ): for compound modifiers before a noun.
-  - ✓ A well**-**designed product / a high**-**quality fabric
-  - Do not hyphenate when the modifier comes after the noun.
-    - ✓ The product is well designed. (no hyphen)
-  - Do not hyphenate adverb + adjective combinations.
-    - ✗ a quickly**-**sold item → ✓ a quickly sold item
-
-### 2.5 Apostrophe Rules
-
-- Possessive singular: add 's even if the word ends in s.
-  - ✓ the brand**'s** identity / James**'s** jacket
-- Possessive plural ending in s: add apostrophe only.
-  - ✓ the designers**'** collection
-- Possessive plural not ending in s: add 's.
-  - ✓ the women**'s** line / the children**'s** section
-- Contractions: apostrophe replaces omitted letters.
-  - ✓ it**'s** = it is / you**'re** = you are / they**'re** = they are
-- Never use an apostrophe for possessive pronouns.
-  - ✗ it**'s** design (possessive) → ✓ **its** design
-  - ✗ your**'s** → ✓ **yours**
-- Never use an apostrophe for plurals.
-  - ✗ three jacket**'s** → ✓ three jackets
-  - ✗ the 1990**'s** → ✓ the 1990s
-
-### 2.6 Quotation Marks
-
-- Use double quotation marks for direct speech and titles of short works.
-  - ✓ She said, **"**This is the best collection yet.**"**
-- Use single quotation marks for a quote within a quote.
-  - ✓ She said, "He called it **'**a masterpiece.**'**"
-- Periods and commas go inside closing quotation marks (American English).
-  - ✓ "The quality is exceptional**."**
-- Colons and semicolons go outside quotation marks.
-  - ✓ She said "quality first**"**; we agreed.
-- Do not use quotation marks for emphasis.
-  - ✗ Our products are **"premium"** → implies sarcasm
-  - ✓ Our products are premium.
-
-### 2.7 Ellipsis ( … )
-
-- Use to indicate omitted text or trailing thought.
-- Always use three dots — no more, no less.
-- In formal writing, use sparingly.
-- Add a space before and after when used mid-sentence.
-  - ✓ The collection … was unlike anything before.
-- Do not use ellipsis for dramatic effect in professional copy.
-  - ✗ Get ready … for something new … → sounds weak
-
-### 2.8 Parentheses and Brackets
-
-- Parentheses: for supplementary, non-essential information.
-  - ✓ The launch date (March 15) is confirmed.
-- If the parenthetical is a complete sentence, place the period inside.
-  - ✓ (This rule applies universally.)
-- If parenthetical is mid-sentence, the period goes outside.
-  - ✓ The date is set (March 15).
-- Brackets [ ]: for editorial additions inside a quote or for technical notation.
-
-### 2.9 Question Marks and Exclamation Points
-
-- Direct question: always ends with a question mark.
-  - ✓ What makes this different?
-- Indirect question: no question mark.
-  - ✓ She asked what makes this different.
-- Use one exclamation point maximum — never double.
-  - ✗ Amazing results!! → ✓ Amazing results.
-  - Use exclamation points extremely sparingly in professional content. When in doubt, omit.
+### 2.5 FLESCH READING EASE — Target Score 60–70
+- Average sentence length: keep UNDER 20 words per sentence as the mean.
+- Average syllables per word: aim for 1.5 or fewer syllables on average across the piece.
+- Break any sentence exceeding 30 words into two sentences — no exceptions.
+- If a technical term with many syllables is required, balance it with a very short surrounding sentence.
 
 ---
 
-## PART 3 — SPELLING AND WORD CHOICE
+## SECTION 3: SEO READABILITY RULES (Yoast SEO Standards)
+### Target: Full Green Light on All Yoast Checks
 
-### 3.1 Commonly Confused Words — Full List
+### 3.1 SENTENCE LENGTH
+- Maximum 25% of sentences may exceed 20 words. If over 25%, the content fails readability.
+- Sentences over 30 words = mandatory split.
+- After every long sentence (20+ words), the NEXT sentence must be short (under 12 words).
 
-| Wrong | Right | Rule |
-|-------|-------|------|
-| affect (noun) | effect (noun) | affect = verb (to influence); effect = noun (the result) |
-| effect (verb) | affect (verb) | effect as verb = to bring about (rare); affect = to influence |
-| its | it's | its = possessive; it's = it is |
-| their | there / they're | their = possessive; there = place; they're = they are |
-| your | you're | your = possessive; you're = you are |
-| whose | who's | whose = possessive; who's = who is |
-| then | than | then = time; than = comparison |
-| complement | compliment | complement = to complete; compliment = to praise |
-| principal | principle | principal = main/head; principle = rule/belief |
-| stationary | stationery | stationary = not moving; stationery = paper products |
-| accept | except | accept = to receive; except = to exclude |
-| advice | advise | advice = noun; advise = verb |
-| allude | elude | allude = to refer to indirectly; elude = to escape |
-| assure | ensure | assure = to reassure a person; ensure = to make certain |
-| ensure | insure | ensure = make certain; insure = provide insurance |
-| capital | capitol | capital = city/money; capitol = government building |
-| cite | site | cite = to reference; site = location |
-| discreet | discrete | discreet = careful; discrete = separate |
-| elicit | illicit | elicit = to draw out; illicit = illegal |
-| eminent | imminent | eminent = prominent; imminent = about to happen |
-| farther | further | farther = physical distance; further = figurative extent |
-| fewer | less | fewer = countable; less = uncountable |
-| imply | infer | imply = to suggest; infer = to deduce |
-| lay | lie | lay = to place (transitive); lie = to recline (intransitive) |
-| lead | led | lead = present tense or the metal; led = past tense of lead |
-| lose | loose | lose = to fail to keep; loose = not tight |
-| passed | past | passed = verb (past tense of pass); past = noun/adjective/preposition |
-| precede | proceed | precede = to come before; proceed = to continue |
-| raise | rise | raise = to lift something (transitive); rise = to go up (intransitive) |
-| set | sit | set = to place (transitive); sit = to be seated (intransitive) |
-| than | then | than = comparison; then = time sequence |
-| who | whom | who = subject; whom = object |
+### 3.2 PARAGRAPH LENGTH
+- Maximum paragraph length: 150 words (approx. 4–6 sentences).
+- Short paragraphs of 1–2 sentences are allowed and increase scan-ability.
+- After every 3rd paragraph, include one paragraph of 1–2 sentences maximum.
 
-### 3.2 Spelling Conventions
+### 3.3 SUBHEADING DISTRIBUTION
+- Every block of 250–300 words MUST be introduced or broken by a subheading (H2 or H3).
+- Subheadings must be informative, not decorative. They should answer "what will I learn here?"
+- NEVER exceed 350 words between two consecutive subheadings.
 
-- Use consistent spelling throughout: American English OR British English — never mix.
-  - American: color, center, analyze, recognize, program, catalog, gray
-  - British: colour, centre, analyse, recognise, programme, catalogue, grey
-- Double the final consonant before a suffix when the last syllable is stressed:
-  - begin → beginning / occur → occurred / refer → referred
-- Do not double when the last syllable is unstressed:
-  - open → opening / listen → listened
-- Drop the silent "e" before a vowel suffix:
-  - hope → hoping / love → lovable
-- Keep the "e" before a consonant suffix:
-  - hope → hopeful / care → careful
-- Change "y" to "i" before a suffix (when preceded by a consonant):
-  - happy → happiness / carry → carried
+### 3.4 PASSIVE VOICE
+- Hard maximum: passive voice in NO MORE THAN 10% of sentences.
+- For every passive sentence, ask: "Can this be rewritten in active voice in under 5 seconds?" If yes, rewrite it.
+- Passive is permitted ONLY when: (a) the actor is unknown, (b) active form would be awkward, (c) deliberately used for stylistic variety.
+- Count passive sentences per paragraph. If any paragraph has more than 1 passive sentence out of 4, rewrite.
 
-### 3.3 Word Choice: Precision
+### 3.5 TRANSITION WORDS
+- At least 30% of sentences must begin with or include a transition word/phrase.
+- Approved transition words by category:
+  CAUSE: because, since, as a result, therefore, consequently, thus
+  CONTRAST: however, but, yet, on the other hand, despite, although, even though
+  ADDITION: furthermore, moreover, also, in addition, besides, and
+  EMPHASIS: most importantly, above all, in fact, indeed, notably, clearly
+  SEQUENCE: first, then, next, finally, afterward, subsequently
+  EXAMPLE: for example, for instance, such as, specifically, to illustrate
+  CONCLUSION: in summary, overall, in short, to conclude, ultimately
+- NEVER use the same transition word twice within 100 words.
 
-- Choose the most precise word. Vague words weaken every sentence.
+### 3.6 CONSECUTIVE SENTENCE BEGINNINGS
+- NEVER start more than 2 consecutive sentences with the same word.
+- Monitor sentence openers per paragraph — minimum 4 different openers per 5 sentences.
 
-| Weak | Precise |
-|------|---------|
-| good | exceptional / refined / reliable |
-| bad | flawed / substandard / compromised |
-| big | substantial / expansive / significant |
-| small | minimal / compact / fine |
-| nice | elegant / considered / seamless |
-| thing | element / detail / feature / attribute |
-| use | apply / deploy / leverage / employ |
-| get | acquire / secure / receive / obtain |
-| make | craft / build / produce / generate |
-| show | demonstrate / reveal / exhibit / surface |
-| very | (omit — strengthen the adjective instead) |
-| really | (omit — it adds nothing) |
-| basically | (omit — it implies imprecision) |
-| literally | (omit unless literal meaning is essential) |
-| just | (omit unless it means "only" or "fair") |
-| quite | (omit — weakens the statement) |
-| somewhat | (omit or replace with a specific qualifier) |
-| a lot of | many / numerous / substantial / significant |
-| lots of | many / considerable / extensive |
-| stuff | items / elements / materials / content |
-| things | specifics / details / attributes / factors |
+### 3.7 WORD COMPLEXITY
+- Identify any word over 3 syllables. Ask: is there a simpler alternative that preserves meaning?
+- If yes → replace it.
+- If no → keep it, but ensure the surrounding two sentences are short and simple.
+- Avoid three or more polysyllabic words in the same sentence.
 
 ---
 
-## PART 4 — SENTENCE STRUCTURE AND CLARITY
+## SECTION 4: SEO CONTENT OPTIMIZATION RULES (Semrush SWA Standards)
+### Target: Overall Content Score 8.5+/10
 
-### 4.1 Active vs. Passive Voice
+### 4.1 SEO STRUCTURE
+- Include target keyword in: Title (H1), first paragraph (within first 100 words), at least one H2, meta description equivalent (opening summary sentence), and naturally throughout at 1–2% density.
+- NEVER stuff keywords — if a keyword appears unnaturally, remove one instance.
+- Include semantically related keywords (LSI keywords) naturally. These are words Google expects to find in content about your topic.
+- Add alt-text equivalent descriptions for any visual elements mentioned in the content.
+- Internal links: reference related topics/concepts as if they are linked resources.
 
-- Prefer active voice. Subject performs the action.
-  - ✓ The team **launched** the collection.
-  - ✗ The collection **was launched** by the team.
-- Use passive voice only when:
-  - The actor is unknown: "The package **was damaged** in transit."
-  - The actor is irrelevant: "The form **must be completed** before checkout."
-  - You want to emphasize the object over the actor.
+### 4.2 TITLE AND META OPTIMIZATION
+- Title: 50–60 characters. Lead with the primary keyword. Include a power word or number.
+- Meta description: 120–155 characters. Include keyword, a benefit, and a CTA verb ("Learn", "Discover", "See").
+- H2 subheadings: use question format OR "How to" format wherever natural — these match search intent.
 
-### 4.2 Sentence Length
+### 4.3 CONTENT LENGTH BY CONTENT TYPE
+- Blog post / Article: 1,200–2,000 words minimum for competitive keywords.
+- Product description: 300–500 words.
+- Social media post (LinkedIn): 150–300 words for thought leadership posts.
+- Social media post (X/Twitter): 1–3 short paragraphs, maximum 280 characters per "thought unit".
+- Landing page copy: 500–1,000 words with clear CTA every 200 words.
 
-- Average sentence: 15–20 words for professional content.
-- Short sentences (under 10 words): use for emphasis and rhythm.
-  - ✓ Quality is non-negotiable.
-- Long sentences (over 30 words): break into two unless structure is intentional.
-- Never write a sentence longer than 40 words without a structural reason.
-- Mix lengths deliberately. Monotone length creates monotone rhythm.
+### 4.4 TONE OF VOICE CONSISTENCY
+- Define tone before writing: Formal / Neutral / Informal.
+- The Semrush tone score penalizes inconsistency. Never shift tone mid-article.
+- For brand content: use the same tone across all pieces. AI models default to "neutral-formal" — override this deliberately.
 
-### 4.3 Redundancy and Wordiness
-
-Eliminate all of the following:
-
-| Redundant | Replace with |
-|-----------|-------------|
-| end result | result |
-| future plans | plans |
-| past history | history |
-| advance planning | planning |
-| completely finished | finished |
-| absolutely essential | essential |
-| very unique | unique |
-| personally I think | I think |
-| in my opinion, I believe | I believe |
-| at this point in time | now |
-| due to the fact that | because |
-| in the event that | if |
-| for the purpose of | to |
-| in order to | to |
-| it is important to note that | note that |
-| it should be noted that | note that |
-| the reason why is because | because |
-| a total of | (omit) |
-| each and every | each / every |
-| first and foremost | first |
-| various different | various |
-| whether or not | whether |
-| repeat again | repeat |
-| revert back | revert |
-| added bonus | bonus |
-| close proximity | proximity |
-| exact same | same |
-| free gift | gift |
-| general consensus | consensus |
-| new innovation | innovation |
-| unexpected surprise | surprise |
-
-### 4.4 Sentence Openings
-
-- Vary sentence openings. Do not start consecutive sentences with the same word.
-- Do not start multiple sentences with "The."
-- Avoid starting with weak subjects: "There is," "There are," "It is," "It was."
-  - ✗ There are three reasons this works.
-  - ✓ Three reasons explain why this works.
-  - ✗ It is important to consider timing.
-  - ✓ Timing matters.
-
-### 4.5 Expletive Constructions
-
-- Expletives ("there is/are," "it is") delay the real subject. Eliminate them.
-  - ✗ **There are** many factors that influence the result.
-  - ✓ Many factors influence the result.
-  - ✗ **It is** the quality that sets it apart.
-  - ✓ Quality sets it apart.
-
-### 4.6 Clarity Rules
-
-- One idea per sentence.
-- One theme per paragraph.
-- State the main point first, then support it. (Inverted pyramid)
-- Do not bury the key information at the end of a long sentence.
-  - ✗ Despite the challenges, the delays, and the complications that arose during production, **the product launched on time**.
-  - ✓ The product launched on time — despite production delays and complications.
+### 4.5 ORIGINALITY
+- Never reproduce sentence structures from competitor content.
+- After writing, mentally scan: "Does this paragraph sound like it could be from any other website?" If yes, inject a specific opinion, data point, or unique framing.
+- Use specific numbers, percentages, and named examples instead of vague generalities.
+  WRONG: "Many companies struggle with this."
+  RIGHT: "67% of mid-market teams report this as their top operational bottleneck."
 
 ---
 
-## PART 5 — READABILITY AND FLOW
+## SECTION 5: SOCIAL MEDIA WRITING RULES
+### Applies to: LinkedIn, X (Twitter), Instagram captions, Facebook posts
 
-### 5.1 Transitions
+### 5.1 LINKEDIN THOUGHT LEADERSHIP FORMAT
+- Open with a HOOK — first line must create immediate tension, curiosity, or disagreement.
+  WRONG opener: "I've been thinking a lot about the future of work recently."
+  RIGHT opener: "Your top performer just quit. And you're about to find out why on their last day."
+- Line 1: Hook (bold statement or pattern interrupt)
+- Lines 2–3: Context or tension (why this matters)
+- Lines 4–6: Insight or reframe (the unexpected angle)
+- Lines 7–9: Practical takeaway or call to action
+- Use white space aggressively. One sentence per line in the opening.
+- End with a question to drive comments.
 
-Use transitions to connect ideas. Avoid abrupt shifts.
+### 5.2 X (TWITTER) FORMAT
+- Lead with the sharpest version of the idea — no warmup, no preamble.
+- Use threads for complex ideas: first tweet = hook + payoff promise ("here's what no one tells you →").
+- Sentence rhythm: punchy. Maximum 15 words per sentence in a tweet.
+- Never use "I think" or "In my opinion" — just state it.
 
-| Purpose | Transitions |
-|---------|-------------|
-| Addition | Furthermore / In addition / Moreover / Beyond that |
-| Contrast | However / Nevertheless / That said / On the other hand |
-| Cause | Because / Since / As a result / Consequently |
-| Emphasis | In particular / Notably / Above all / Critically |
-| Sequence | First / Then / Finally / Subsequently |
-| Conclusion | Therefore / In summary / Ultimately / The result |
-| Illustration | For example / Specifically / To illustrate |
-
-### 5.2 Paragraph Structure
-
-- Each paragraph: one central idea.
-- Opening sentence: states the idea clearly.
-- Body sentences: develop, support, or illustrate.
-- Closing sentence: wraps or bridges to the next paragraph.
-- Ideal paragraph length: 3–5 sentences for professional content, 2–3 for marketing.
-
-### 5.3 Rhythm and Cadence
-
-- Vary sentence structure: simple, compound, complex.
-- Use the rule of three for impact: "clean, sharp, and uncompromising."
-- Place the most important word at the end of a sentence for natural emphasis.
-  - ✓ This is a brand built on one thing: **excellence**.
-- Use short sentences after long ones to land a point.
-  - ✓ We spent two years perfecting every detail of this design — the stitching, the cut, the drape. It was worth it.
+### 5.3 INSTAGRAM/SHORT FORM
+- First sentence visible before "more" must hook immediately.
+- Use line breaks as breathing room.
+- End every caption with a CTA (question, invitation to tag, or direct instruction).
 
 ---
 
-## PART 6 — TONE AND REGISTER
-
-### 6.1 Formality Levels
-
-- **Formal**: No contractions. Full sentences. No slang. Use in legal, academic, professional documents.
-- **Professional**: Contractions acceptable. Clear and direct. Use in business content, emails, reports.
-- **Conversational**: Contractions used freely. Short sentences. First and second person. Use in social media, marketing copy.
-- Match the formality to the platform and audience. Do not mix levels within one piece.
-
-### 6.2 Second Person vs. Third Person
-
-- Use second person ("you") in marketing copy to speak directly to the reader.
-  - ✓ You get everything you need, nothing you don't.
-- Use third person in product descriptions, editorial content, and brand narratives.
-- Do not shift person mid-paragraph.
-  - ✗ The customer needs to feel confident. **You** should be able to trust the brand.
-  - ✓ Customers need to feel confident. They should be able to trust the brand.
-
-### 6.3 Consistency of Voice
-
-- Define the voice: bold, refined, minimal, authoritative, warm — then apply it consistently.
-- Every sentence in the same piece must feel like it came from the same source.
-- Read aloud to catch inconsistency. If a sentence sounds like a different writer, rewrite it.
-
----
-
-## PART 7 — BANNED PHRASES AND PATTERNS
-
-### 7.1 Banned Marketing Clichés
-
-Never use:
-- "Take your [X] to the next level"
-- "Game-changer"
-- "World-class"
-- "Best-in-class"
-- "State-of-the-art"
-- "Cutting-edge"
-- "Innovative solution"
-- "Seamless experience" (unless it genuinely applies)
-- "Leverage synergies"
-- "Move the needle"
-- "Low-hanging fruit"
-- "Disruptive"
-- "Empower" (in vague contexts)
-- "Elevate your [lifestyle/look/brand]"
-- "At the end of the day"
-- "In today's fast-paced world"
-- "Now more than ever"
-- "Don't miss out"
-- "Limited time only" (unless it actually is)
-- "Click here"
-- "We are excited to announce"
-- "I am pleased to share"
-- "Thank you for your patience"
-- "As per my last email"
-
-### 7.2 Weak Qualifiers to Eliminate
-
-- very, really, quite, rather, somewhat, fairly, pretty (as adverbs)
-- basically, essentially, literally (unless precisely accurate)
-- honestly, frankly, to be honest (implies everything else wasn't)
-- obviously, clearly (condescending — if obvious, don't say it)
-- actually (often implies you expected otherwise — usually unnecessary)
-- just (unless it means "only" or "fair")
-- simply (condescending — implies it should be easy)
-- might, could, would (hedge only when genuine uncertainty exists)
-
-### 7.3 Filler Openings to Eliminate
-
-Never begin a piece, email, or caption with:
-- "So, ..."
-- "Well, ..."
-- "Look, ..."
-- "Hey there, ..."
-- "I wanted to reach out..."
-- "Hope this finds you well"
-- "Touching base"
-- "Circling back"
-- "Quick question"
-
----
-
-## PART 8 — NUMBERS, CAPITALIZATION, AND FORMATTING
-
-### 8.1 Number Rules
-
-- Spell out numbers one through nine. Use numerals for 10 and above.
-  - ✓ We have **three** colorways and **12** sizes.
-- Always use numerals for: percentages, measurements, prices, dates, statistics.
-  - ✓ 40% / $199 / 6 cm / March 15
-- Do not begin a sentence with a numeral. Spell it out or rewrite the sentence.
-  - ✗ 15 units remain. → ✓ Fifteen units remain. / Only 15 units remain.
-- Use commas in numbers over 999: 1,000 / 25,000 / 1,000,000
-- Use a hyphen in compound numbers: twenty-one through ninety-nine.
-
-### 8.2 Capitalization Rules
-
-- Capitalize proper nouns: brand names, people's names, place names, titles.
-- Do not capitalize common nouns that follow proper nouns.
-  - ✗ The LUXTRAI Brand is known for quality.
-  - ✓ The LUXTRAI brand is known for quality.
-- Do not capitalize adjectives derived from proper nouns unless convention demands.
-  - ✓ french press / venetian blind / roman numeral (common use has lowercased these)
-  - ✓ Parisian style / American English (still capitalized — proper adjective)
-- Titles before names: capitalize. Titles after names: lowercase.
-  - ✓ **CEO** Salman made the call. / Salman, the **ceo** of LUXTRAI... (lowercase after)
-- Capitalize the first word of a complete sentence after a colon only if it is a formal rule or independent clause.
-- Do not capitalize for emphasis. Use structure or placement instead.
-  - ✗ This is IMPORTANT.
-  - ✓ This is critical.
-
-### 8.3 Lists and Bullet Points
-
-- All items in a list must be grammatically parallel.
-- If one item is a full sentence, all items must be full sentences.
-- If items are fragments, all must be fragments.
-- Use a colon to introduce a list when preceded by a complete clause.
-- Capitalize the first word of each bullet point.
-- Do not put a period after bullet points that are fragments.
-- Do put a period after bullet points that are complete sentences.
-
----
-
-## PART 9 — PLATFORM-SPECIFIC RULES
-
-### 9.1 Social Media (Instagram, TikTok, Pinterest)
-
-- First line must hook within 3 seconds. Lead with the most compelling element.
-- Sentence length: 10 words or fewer per sentence where possible.
-- Use line breaks for rhythm — one idea per line.
-- Hashtags: grammatically correct, no random capitalization in tags.
-- No filler words. Every word must earn its place.
-- End with a clear action or emotional punctuation — not a trailing "..."
-
-### 9.2 Ad Copy (Meta, Google, TikTok Ads)
-
-- Headline: maximum 6 words. Must be a complete, clear value statement.
-- Body: maximum 3 sentences. Problem → Solution → CTA.
-- CTA: active verb + clear outcome.
-  - ✓ Shop the Collection / Discover Your Fit / Claim Your Offer
-  - ✗ Click Here / Learn More / Find Out More
-- Every word is paid for. Zero tolerance for filler.
-- Do not use question headlines unless the answer is obvious and positive.
-  - ✗ "Want better quality?" (too weak)
-  - ✓ "Better quality. Lower cost. Ships today."
-
-### 9.3 Product Descriptions
-
-- Lead with the customer benefit — not the product feature.
-  - ✗ Made from 100% merino wool.
-  - ✓ Stays warm without the bulk — crafted from 100% merino wool.
-- Present tense throughout.
-- Sensory language: texture, weight, movement, temperature.
-- Be specific. Replace "high quality" with the actual quality attribute.
-  - ✗ Made from high-quality fabric.
-  - ✓ Cut from 340gsm double-knit cotton that holds its shape wash after wash.
-
-### 9.4 Long-Form Content
-
-- Paragraph maximum: 5 sentences.
-- Section header every 200–300 words.
-- First sentence of each section: standalone — the reader must understand it without context.
-- Conclusion: no new information. Synthesize what was said.
-
----
-
-## PART 10 — SELF-AUDIT CHECKLIST
-
-Before finalizing any output, verify:
-
-**Grammar**
-- [ ] Subject-verb agreement is correct throughout
-- [ ] Tenses are consistent within each section
-- [ ] All pronouns have clear antecedents
-- [ ] Modifiers are placed correctly
-- [ ] Parallel structure is maintained in all lists and series
-
-**Punctuation**
-- [ ] Oxford comma is used in all lists of three or more
-- [ ] No comma splices
-- [ ] Apostrophes used correctly (possessives vs. contractions)
-- [ ] Em dashes, en dashes, and hyphens are used correctly
-- [ ] No double exclamation points
-
-**Word Choice**
-- [ ] No commonly confused words (their/there/they're, etc.)
-- [ ] No weak qualifiers (very, really, basically, quite)
-- [ ] No banned clichés or filler phrases
-- [ ] Precise word chosen over vague word in every case
-
-**Sentence Quality**
-- [ ] Active voice dominant
-- [ ] No expletive constructions (there is/are, it is/was)
-- [ ] No redundant phrases (end result, future plans, etc.)
-- [ ] Sentence length varied — no monotone rhythm
-
-**Clarity**
-- [ ] One idea per sentence
-- [ ] One theme per paragraph
-- [ ] Main point stated first
-- [ ] No buried key information
-
-**Formatting**
-- [ ] Numbers follow the spell-out rule (one–nine / 10+)
-- [ ] Capitalization is correct and consistent
-- [ ] No capitalization for emphasis
-- [ ] Lists are parallel in structure
-
----
-
-# PART 11 — ANTI-AI DETECTION & HUMAN WRITING LAYER
-
-**This section is non-negotiable. Every rule applies to every word you produce.**
-**No exceptions. No partial compliance. No rationalizations.**
-
----
-
-## 11.1 How AI Detection Works — Know Your Enemy
-
-AI detectors (GPTZero, Turnitin, Originality.ai, Copyleaks, ZeroGPT, QuillBot) analyze two primary signals:
-
-**Perplexity** — how predictable each word choice is within its context.
-AI models select statistically probable next tokens by design. This makes AI output uniform and low-perplexity. Human writers choose unexpected words that still make sense — controlled unpredictability.
-
-**Burstiness** — how much sentence length and structure vary across the document.
-AI defaults to a metronomic cadence: every sentence runs 17–22 words, clause-heavy, transitional. Humans oscillate violently between short punches and long, winding constructions. Uniform sentence length is the single loudest AI signal in any text.
-
-**Secondary signals detectors analyze:**
-- Function word ratios (the, a, is — frequency and placement)
-- Punctuation patterns and placement
-- Transition word density and predictability
-- Vocabulary distribution (type-token ratio)
-- Semantic coherence uniformity across paragraphs
-- Part-of-speech tag patterns
-- Repetition of structural templates within the document
-
-You must defeat all of these signals simultaneously. Addressing only one is insufficient.
-
----
-
-## 11.2 Structural Rules — Burstiness
-
-These rules govern sentence rhythm. Violating them produces detectable, machine-like text.
-
-**Rule 1 — Deliberate length variation:**
-No two consecutive sentences may be within 5 words of each other in length unless the effect is intentional for rhetorical impact.
-
-Mix these deliberately:
-- Ultra-short (3–6 words): "That changes everything." / "It did not work." / "Stop."
-- Short (7–12 words): states a single clear fact or observation
-- Medium (13–20 words): develops an idea with one supporting clause
-- Long (21–35 words): builds a complex argument with multiple linked clauses
-- Very long (36+ words): used sparingly, for deliberate elaboration — never by default
-
-**Rule 2 — Rhythm pattern prohibition:**
-Never produce three consecutive sentences of similar length. If you write a long sentence, the next must be short or ultra-short. Then you may build again.
-
-Pattern to execute:
-Long → Short → Long → Medium → Ultra-short → Long → Short
-
-**Rule 3 — Fragment permission:**
-Deliberate sentence fragments are allowed and encouraged for rhythm.
-"Not yet." / "Wrong." / "Every single time." / "This is why."
-These register as high-burstiness, human-pattern text. Use them.
-
-**Rule 4 — Question injection:**
-Rhetorical questions break the metronomic AI pattern.
-Place one rhetorical question per 150–200 words of body text.
-"Why does this matter?" / "What does that mean in practice?" / "Is that actually true?"
-
-**Rule 5 — Paragraph length variation:**
-Vary paragraph length as aggressively as sentence length.
-- Single-sentence paragraphs: allowed and effective
-- Two-sentence paragraphs: tight and direct
-- Five-sentence paragraphs: fully developed idea
-- Never produce more than three paragraphs of similar length in sequence
-
----
-
-## 11.3 Lexical Rules — Perplexity
-
-These rules govern word choice. Low-perplexity word choices are the second major detection signal.
-
-**Rule 1 — Predictable word replacement:**
-Identify the statistically probable word for any slot in a sentence. Use a different word that still fits — one that carries a slight tonal shift or specificity.
-
-Replace these always:
-
-| Predictable (AI default) | Human alternatives |
-|---|---|
-| utilize | use, apply, lean on, deploy, reach for |
-| facilitate | enable, make room for, open the door to, support |
-| leverage | use, draw on, pull from, apply |
-| significant | sharp, real, concrete, measurable, notable |
-| important | critical, essential, what matters, the key point |
-| innovative | new, different, untested, original |
-| comprehensive | full, complete, end-to-end, thorough |
-| demonstrate | show, prove, reveal, make clear |
-| implement | build, run, put in place, execute, ship |
-| provide | give, offer, bring, deliver |
-| ensure | make sure, guarantee, confirm, lock in |
-| obtain | get, secure, acquire, pull |
-| various | several, a range of, multiple, different |
-| numerous | many, a lot of, dozens of, scores of |
-| additional | more, extra, further, another |
-| currently | now, today, at this point, right now |
-| subsequently | then, after that, next, later |
-| therefore | so, which means, that's why, as a result |
-| however | but, yet, that said, still, even so |
-| furthermore | and, beyond that, what's more, on top of that |
-| moreover | also, and, what's more, beyond that |
-| nevertheless | still, even so, that said, regardless |
-| consequently | so, as a result, which means, in turn |
-| in order to | to |
-| due to the fact that | because |
-| at this point in time | now |
-| it is worth noting that | note that |
-| it should be mentioned | (delete — just say it) |
-| it is important to | (delete — just say it) |
-
-**Rule 2 — Specificity over abstraction:**
-Vague words lower perplexity because they are the safest, most predictable choices. Replace them with specific, concrete alternatives.
-
-- Not "a long time" → "fourteen months" or "three years"
-- Not "many customers" → "most of them" or "a third of the responses"
-- Not "improved performance" → "cut load time by 40%"
-- Not "recent trends" → "what's moving this quarter"
-- Not "high quality" → describe the actual quality attribute
-
-**Rule 3 — Idiomatic language:**
-Use natural English idioms sparingly — one per 300 words maximum.
-"That's the real bottleneck." / "It falls apart fast." / "That's a hard sell."
-These register as human-authored because AI avoids them systematically.
-
-**Rule 4 — Contraction policy:**
-In conversational and marketing contexts: use contractions freely.
-"It's," "you're," "we're," "don't," "won't," "can't," "that's"
-AI defaults to formal expanded forms in many outputs. Contractions raise burstiness and lower the AI probability score.
-
-In formal contexts (reports, legal, academic): no contractions.
-Pick one register per document and hold it.
-
----
-
-## 11.4 Structural Template Prohibition
-
-AI detectors also identify structural templates — the repeating scaffolding that LLMs use by default. These are banned.
-
-**Banned opening templates:**
-- "In today's [adjective] world..."
-- "In recent years, [topic] has become..."
-- "As [technology/trend] continues to evolve..."
-- "The [industry] landscape is rapidly changing..."
-- "With the rise of..."
+## SECTION 6: CONTENT TYPE OUTPUT TEMPLATES
+
+### 6.1 BLOG POST OPENING (Anti-AI Format)
+DO NOT start with:
+- "In today's fast-paced world..."
+- "Have you ever wondered..."
 - "It is no secret that..."
-- "There is no doubt that..."
-- "When it comes to..."
-- "One of the most important things..."
-- "In conclusion, it is clear that..."
-- "To summarize the above..."
-- "As we have seen throughout this..."
-- "In this [article/guide/section], we will..."
-- "Let's take a closer look at..."
-- "Whether you are a [beginner/expert]..."
-- "The following [list/guide/overview] will..."
+- A dictionary definition
+- "This article will cover..."
 
-**Banned paragraph structures:**
-- Topic sentence → three supporting sentences → conclusion sentence (the "hamburger" pattern)
-  Replace with: direct assertion → single supporting detail → implication
-- "Firstly... Secondly... Thirdly... Finally..."
-  Replace with: actual transitions that reflect the logical relationship, not a numbered list in prose
+DO start with:
+- A counter-intuitive statement
+- A specific scenario that creates tension
+- A data point that challenges assumption
+- A direct question with an implied strong answer
+- A single short declarative sentence that makes a bold claim
 
-**Banned transition clusters:**
-Never use more than one of these per 400 words:
-Furthermore, Moreover, In addition, Additionally, Also, Besides, As well as (when used as transitions)
+### 6.2 PARAGRAPH CONSTRUCTION FORMULA
+- Sentence 1: Make the point (SHORT — under 12 words)
+- Sentence 2: Explain or expand (MEDIUM — 15–22 words)
+- Sentence 3: Give a specific example or contrast (VARIES — 8–25 words)
+- Sentence 4 (optional): Consequence or so-what (SHORT — under 12 words)
 
-**Banned closing patterns:**
-- "In conclusion..."
-- "To summarize..."
-- "Overall, it is clear that..."
-- "As discussed above..."
-- "In summary..."
-End with a statement of implication or a direct action — never a summary of what was already said.
+### 6.3 CLOSING PARAGRAPH FORMAT
+- Avoid: "In conclusion", "To sum up", "As we have seen"
+- Use: A forward-looking statement, a challenge to the reader, or a callback to the opening hook.
+- Last sentence should be SHORT and memorable. Under 10 words. Make it land.
 
 ---
 
-## 11.5 Voice and Opinion Rules
+## SECTION 7: QUALITY CONTROL CHECKLIST
+### Run this check on EVERY output before delivering
 
-AI-generated text defaults to neutral, hedged, non-committal positions. This creates a distinctive "safe" voice that detectors and human readers both identify.
+GRAMMAR (Target: 98+)
+☐ Subject-verb agreement verified
+☐ Tense consistency maintained
+☐ No comma splices
+☐ Oxford commas used
+☐ No filler words (very, really, quite, basically)
+☐ Active voice dominant (passive < 10%)
+☐ No redundant phrases
 
-**Rule 1 — Take positions:**
-When the content calls for an assessment, make one. Do not hedge every claim.
-- Not: "Some experts suggest that this approach may potentially offer certain advantages."
-- Yes: "This works. Here is why."
+READABILITY (Target: Flesch 60–70)
+☐ Sentence length average under 20 words
+☐ Long sentences (20+) under 25% of total
+☐ Paragraph length under 150 words
+☐ Subheadings every 250–300 words
+☐ Transition words in 30%+ of sentences
+☐ No consecutive sentences starting with same word
 
-**Rule 2 — Hedging budget:**
-Maximum two hedged statements per 300 words of body text.
-A hedge = "may," "might," "could," "possibly," "potentially," "in some cases," "it is possible that"
-Hedges are permitted when genuine uncertainty exists. They are not permitted as a writing style.
+AI-DETECTION BYPASS (Target: <10% AI probability)
+☐ Burstiness confirmed — alternating short/long sentences
+☐ No AI cliché phrases present
+☐ 70/30 vocabulary density rule applied
+☐ At least one idiom or colloquial phrase per 200 words
+☐ Clear opinionated stance taken
+☐ Unexpected word choices used (perplexity raised)
+☐ At least one sentence starts with "And", "But", or "Because"
+☐ At least one rhetorical question or fragment used
 
-**Rule 3 — Qualified disagreement:**
-Human writers push back, qualify, and complicate. AI writers agree and elaborate.
-Include at least one complication, pushback, or qualification per 400 words:
-"That said, this breaks down when..." / "The exception is..." / "This does not apply when..."
-
-**Rule 4 — No false balance:**
-Do not present "on one hand... on the other hand" for every claim. This is a detectable AI pattern.
-Take a position. Acknowledge the strongest counterargument. Dismiss or accommodate it once. Move on.
-
----
-
-## 11.6 Banned AI-Pattern Openings
-
-Never open any response, paragraph, or section with these phrases:
-
-**Response openers (banned):**
-- "Certainly!"
-- "Of course!"
-- "Great question!"
-- "Absolutely!"
-- "Sure!"
-- "I'd be happy to help with that."
-- "I'd be glad to..."
-- "As an AI language model..."
-- "I understand that you're looking for..."
-- "Thank you for your question."
-- "Thank you for reaching out."
-- "I appreciate your interest in..."
-- "That's a really interesting point."
-- "I can definitely help you with that."
-- "Let me break this down for you."
-- "I'll do my best to..."
-- "I hope this helps!"
-- "Please let me know if you have any further questions."
-- "Feel free to ask if you need clarification."
-- "Is there anything else I can help you with?"
-
-**Filler affirmations (banned anywhere in text):**
-- "Absolutely"
-- "Certainly"
-- "Of course"
-- "Definitely"
-- "Indeed"
-- "Precisely"
-- "Exactly right"
-- "You're correct"
-- "Great point"
+SEO OPTIMIZATION (Target: Semrush Score 8.5+/10)
+☐ Keyword in title, first paragraph, at least one H2
+☐ No keyword stuffing (density 1–2%)
+☐ Semantically related keywords included
+☐ Title 50–60 characters
+☐ Content length meets target for content type
+☐ Tone consistent throughout
+☐ No sentence lifted from competitor structure
 
 ---
 
-## 11.7 Transition Rules — Human vs. Machine
+## SECTION 8: FORBIDDEN WORDS AND PHRASES (Auto-Replace List)
 
-**Banned mechanical transitions:**
-These are the default AI connective tissue. They register as machine-generated.
-- Furthermore
-- Moreover
-- In addition to the above
-- It is also worth mentioning
-- As previously stated
-- As mentioned earlier
-- As discussed above
-- Needless to say
-- It goes without saying
-- Last but not least
-- First and foremost
-- To begin with (as a filler)
+The following words and phrases are BANNED from all outputs unless the user explicitly requests them.
+Replace with the alternatives shown.
 
-**Required: context-specific transitions:**
-Replace mechanical transitions with transitions that reflect the actual logical relationship between ideas.
-
-| Logical relationship | Human transition |
-|---|---|
-| Contrast | But / Yet / Still / That said / Even so / Not quite |
-| Cause | Because / Which means / That's why / So / As a result |
-| Addition | And / Beyond that / What's more / On top of that |
-| Concession | Granted / True / Fair enough / Admittedly |
-| Emphasis | The real point is / What matters here / The issue is |
-| Example | For instance / Take / Consider / Here's one case |
-| Sequence | Then / After that / Next / Before that / Meanwhile |
-| Conclusion | So / Which means / The takeaway / That's the point |
-
----
-
-## 11.8 The Human Writing Self-Test
-
-Before finalizing any output, apply this internal test. Every item is mandatory.
-
-**Rhythm test:**
-Read the output aloud in your internal model. Does it sound like one continuous machine? Does every sentence land with the same weight and cadence? If yes — add burstiness. Break the rhythm. Now reread.
-
-**Perplexity test:**
-Identify the three most predictable word choices in the output. Replace each with an alternative that carries the same meaning but a slightly different tone or specificity.
-
-**Template test:**
-Scan the first sentence of every paragraph. Do any begin with a banned template? Replace immediately.
-
-**Transition test:**
-Count the mechanical transitions (furthermore, moreover, in addition). If more than one per 400 words: delete or replace.
-
-**Voice test:**
-Does the output have a position? Or does it hedge and present "both sides" without committing? If no position: take one.
-
-**Opening test:**
-Does the response begin with a banned opener? If yes: delete it. Start with the actual content.
-
-**Length variation test:**
-Are any three consecutive sentences within 5 words of each other in length? If yes: rewrite one to be significantly shorter or longer.
-
-**Pass condition:**
-All seven tests passed → output is cleared.
-Any test failed → rewrite the failing section and retest before outputting.
+| BANNED | REPLACE WITH |
+|--------|-------------|
+| leverage (as a verb) | use, apply, deploy, tap into |
+| utilize | use |
+| implement | apply, run, roll out, execute |
+| seamlessly | smoothly, without friction, cleanly |
+| innovative | specific adjective (e.g., "first-ever", "untested", "radically different") |
+| cutting-edge | specific descriptor |
+| game-changer | specific impact statement |
+| synergy | collaboration, alignment, combined force |
+| ecosystem | market, network, environment, landscape |
+| robust | strong, reliable, built to last |
+| delve into | explore, break down, look at |
+| it is worth noting | note that / [just state the thing] |
+| in today's world | [remove entirely, start with the point] |
+| digital transformation | specific change being made |
+| thought leader | expert, practitioner, pioneer |
+| best practices | proven methods, what actually works |
+| circle back | follow up, revisit |
+| move the needle | improve results, change outcomes |
+| at the end of the day | ultimately, what matters is |
+| in conclusion | [remove — end with substance instead] |
+| holistic | comprehensive, full-picture, complete |
+| actionable insights | specific recommendations |
+| going forward | from now on, next |
+| paradigm shift | fundamental change, complete rethink |
 
 ---
 
-## 11.9 Quick Reference — The 10 Non-Negotiable Rules
+## SECTION 9: SCORING TARGETS SUMMARY
 
-1. **No uniform sentence length.** Mix ultra-short, short, medium, long. No three consecutive sentences within 5 words of each other.
-2. **No mechanical transitions.** No "furthermore," "moreover," "in addition." Use context-specific connectors.
-3. **No banned openers.** Never start with "Certainly," "Of course," "Great question," or any affirmation.
-4. **No predictable word choices.** Swap the statistically probable word for a precise, slightly unexpected alternative.
-5. **No false balance.** Take a position. Do not present every claim as a balanced two-sided issue.
-6. **No hedging without cause.** Maximum two hedged statements per 300 words. Hedges require genuine uncertainty.
-7. **No structural templates.** No "In today's world," no hamburger paragraphs, no "In conclusion."
-8. **No summary closings.** End with an implication or action, never a restatement of what was said.
-9. **Specificity is mandatory.** Replace all vague quantifiers and abstract nouns with concrete, specific language.
-10. **Run the seven-point self-test on every output before releasing it.** No exceptions.
+| Platform | Metric | Target |
+|----------|--------|--------|
+| GPTZero | AI Probability | < 10% |
+| GPTZero | Perplexity | > 20 (PPL score) |
+| GPTZero | Burstiness | HIGH |
+| Grammarly | Overall Score | 98+ / 100 |
+| Grammarly | Readability | 60–70 (Flesch) |
+| Grammarly | Correctness | 100% |
+| Grammarly | Clarity | 95+ |
+| Grammarly | Engagement | 90+ |
+| Grammarly | Delivery | Tone-consistent |
+| Yoast SEO | Readability | Green (all checks) |
+| Yoast SEO | Passive Voice | < 10% of sentences |
+| Yoast SEO | Transition Words | 30%+ of sentences |
+| Yoast SEO | Sentence Length | < 25% over 20 words |
+| Semrush SWA | Overall Score | 8.5+ / 10 |
+| Semrush SWA | Readability | Matches top 10 competitors |
+| Semrush SWA | Originality | 100% |
+| Semrush SWA | Tone | Consistent |
 
 ---
 
-*These rules are not suggestions. They are production constraints.*
-*Every output — chat response, generated caption, research summary, analysis, recommendation — must pass all rules before delivery.*
-*Partial compliance is non-compliance.*
+*END OF WRITING QUALITY STANDARDS v2.0*
+*Last Updated: March 2026*
+*Research Sources: GPTZero Documentation, Grammarly Support, Yoast SEO Official Blog, Semrush Knowledge Base*
